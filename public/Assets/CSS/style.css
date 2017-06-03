@@ -1,0 +1,51 @@
+ body{
+    /*background-color: #DECADE*/
+    background-color: #FF6600;
+     font-style: Verdana;
+ }
+
+ body {
+  margin-bottom: 80px;
+  background-image: url("../Images/sports.png");
+}
+ #wrapper{
+    width:960px;
+    margin: 0 auto;
+    padding-top: 5%;
+ }
+ #articles{
+    width:60%;
+    height:700px;
+    display:inline-block;
+    overflow: auto;
+    background-color: #F6F6EF;
+    padding-left: 20px;
+    padding-right: 20px;
+    font-style: Verdana;
+    border-radius: 2px;
+ }
+ #notes{
+    width:30%;
+    float:right;
+ }
+ textarea, input{
+    display:block;
+    width:100%;
+    background-color: #F6F6EF;
+
+ }
+ input{
+    height:36px;
+    font-size: 24px;
+ }
+ textarea{
+    height:200px;
+    font-size: 18px;
+ }
+ .heading {
+      font-style: Verdana;
+      font-weight: 600;
+}
+.headline {
+     font-weight: 700;
+}

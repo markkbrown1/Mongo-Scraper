@@ -35,7 +35,7 @@ app.use(router);
 
 
 // If deployed, use the deployed database. Otherwise use the local mongoScraper database
-var db = process.env.MONGODB_URI || "mongodb://localhost/mongoScraper";
+var db = process.env.MONGODB_URI || "mongodb://localhost/Mongo-Scraper";
 
 // Connect mongoose to our database
 mongoose.connect(db, function(error) {

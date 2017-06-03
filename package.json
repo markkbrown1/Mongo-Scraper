@@ -1,0 +1,29 @@
+{
+  "name": "mongo-scraper",
+  "version": "1.0.0",
+  "description": "a news headline app utilizing cheerio and mongoose",
+  "main": "index.js",
+  "dependencies": {
+    "body": "^5.1.0",
+    "cheerio": "^1.0.0-rc.1",
+    "express": "^4.15.3",
+    "express-handlebars": "^3.0.0",
+    "mongoose": "^4.10.3",
+    "parser": "^0.1.4",
+    "request": "^2.81.0"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/markkbrown1/Mongo-Scraper.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/markkbrown1/Mongo-Scraper/issues"
+  },
+  "homepage": "https://github.com/markkbrown1/Mongo-Scraper#readme"
+}
